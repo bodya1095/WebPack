@@ -8,6 +8,7 @@ import { nodeModulePath } from '../constants';
 const styledComponentsTransformer = createTransformer();
 
 export const loadTypeScript = (): Configuration => ({
+    
     module: {
         rules: [
             {
@@ -30,5 +31,9 @@ export const loadTypeScript = (): Configuration => ({
             },
         ],
     },
+     resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ],
+  },
+  
 });
 

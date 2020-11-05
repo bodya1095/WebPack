@@ -17,7 +17,7 @@ import dotenv from 'dotenv';
 // import { SOURCE_DIRECTORY } from '../constants';
 
 export const connectBuildProgressIndicator = (): Configuration => ({
-    plugins: [ new WebpackBar() ],
+    plugins: [ new WebpackBar({}) ],
 });
 
 export const connectFriendlyErrors = (): Configuration => ({

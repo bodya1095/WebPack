@@ -3,7 +3,7 @@ import { ContextReplacementPlugin, Configuration } from 'webpack';
 
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 // import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
-// import UglifuJsPlugin from 'uglifyjs-webpack-plugin';
+
 /**
  * production — оптимизация включена только в mode: 'production'
  * development — оптимизация включена только в mode: 'development'

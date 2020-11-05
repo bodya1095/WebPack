@@ -38,12 +38,12 @@ export const loadProdCss = (): Configuration => ({
             },
         ],
     },
-/*
+
     plugins: [
         new MiniCssExtractPlugin({
             filename:      'css/[name].[contenthash:5].[id].css',
             chunkFilename: 'css/[name].[contenthash:5].[id].css',
         }),
-    ],*/
+    ],
 });
 
